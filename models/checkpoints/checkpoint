@@ -1,0 +1,2 @@
+model_checkpoint_path: "product_classification_model_checkpoint"
+all_model_checkpoint_paths: "product_classification_model_checkpoint"

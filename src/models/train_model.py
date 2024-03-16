@@ -4,8 +4,6 @@ from keras_preprocessing.image import ImageDataGenerator
 
 from pathlib import Path
 
-import matplotlib.cm as cm
-import cv2
 import seaborn as sns
 
 sns.set_style('darkgrid')
@@ -95,7 +93,7 @@ history = model_0.fit(train_data,
                           reduce_lr
                       ])
 
-tf.saved_model.save(model_0, "./models/product_classification_model.h5")
+model_0.save("./models/product_classification_model.h5")
 
 
 base_model.trainable = True
@@ -123,4 +121,4 @@ history_tuned = model_0.fit(train_data,
                                 reduce_lr
                             ])
 
-tf.saved_model.save(model_0, "./models/product_classification_model_tuned.h5")
+model_0.save( "./models/product_classification_model_tuned.h5")
