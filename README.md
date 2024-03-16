@@ -1,6 +1,7 @@
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
+- [Notebook](#notebook)
 - [Introduction](#introduction)
   - [Project Overview](#project-overview)
   - [Purpose](#purpose)
@@ -33,6 +34,9 @@
       - [Training and Validation Accuracy After Fine-Tuning](#training-and-validation-accuracy-after-fine-tuning)
       - [Training and Validation Loss After Fine-Tuning](#training-and-validation-loss-after-fine-tuning)
   - [Model Comparison](#model-comparison)
+
+# Notebook
+You can see the notebook from here: [URL](https://github.com/MohamedSamir245/Product_classification_slash/blob/master/notebooks/Pipeline.ipynb)
 
 <a id="introduction"></a>
 
